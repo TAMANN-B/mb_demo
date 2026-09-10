@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MB Lounge, bar rooftop et salon de coiffure à Kinshasa. Cocktails, spectacles et moments d'exception.">
+  <title>MB Lounge | Cocktails & moments d'exception</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"><span>OUVERT AUJOURD'HUI JUSQU'À Xh00</span><span class="d-none d-md-inline">172 Rue De Bukama, Kinshasa</span><a href="tel:0814880530">0814 880 530</a></div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#accueil" aria-label="MB Lounge, accueil"><img src="logo_mb_transparent.png" alt="Logo MB House"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+          <li class="nav-item"><a class="nav-link active" href="#accueil">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">L'expérience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#carte">La carte</a></li>
+          <li class="nav-item"><a class="nav-link" href="#agenda">Agenda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="btn btn-copper btn-sm px-4" href="#reservation">Réserver une table</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-overlay"></div>
+      <div class="container position-relative z-1">
+        <div class="row align-items-end min-vh-100 pb-5">
+          <div class="col-lg-8 col-xl-7 hero-copy">
+            <p class="eyebrow reveal">take away · whisky · COCKTAILS</p>
+            <h1 class="display-title reveal reveal-delay-1">Les belles nuits<br><em>commencent ici.</em></h1>
+            <p class="hero-text reveal reveal-delay-2">Un écrin suspendu au cœur de Kinshasa, où les cocktails rencontrent la musique, le style et les conversations qui durent.</p>
+            <div class="d-flex flex-wrap gap-3 reveal reveal-delay-3">
+              <a class="btn btn-outline-light btn-lg" href="#reservation">Réserver maintenant</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#experience" class="scroll-cue" aria-label="Découvrir l'expérience"><span>Défiler</span><i class="bi bi-arrow-down"></i></a>
+    </section>
+
+    <section class="experience-section section-padding" id="experience">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5 reveal">
+            <p class="eyebrow copper-text">L'ADRESSE À PARTAGER</p>
+            <h2 class="section-title">Plus qu'un bar,<br><em>un état d'esprit.</em></h2>
+            <p class="body-copy">Chez MB Lounge, chaque détail est pensé pour ralentir le temps. Une lumière dorée, des assiettes à partager, des créations fraîches et cette vue qui donne envie de rester encore un peu.</p>
+            <a href="#contact" class="text-link">Nous trouver <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+          <div class="col-lg-7">
+            <div class="feature-grid">
+              <article class="feature-card feature-card-tall reveal reveal-delay-1"><i class="bi bi-stars"></i><h3>Des cocktails<br>qui racontent<br>une histoire.</h3><span>01 / Signature</span></article>
+              <article class="feature-card feature-card-small reveal reveal-delay-2"><i class="bi bi-music-note-beamed"></i><h3>La nuit<br>en musique.</h3><span>02 / Live & DJ sets</span></article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section-padding" id="carte">
+      <div class="container">
+        <div class="section-heading text-center reveal"><p class="eyebrow copper-text">À LA CARTE</p><h2 class="section-title">Quelques favoris<br><em>de la maison.</em></h2></div>
+        <div class="menu-tabs reveal reveal-delay-1" role="tablist" aria-label="Catégories de la carte">
+          <button class="menu-tab active" data-filter="all" role="tab">Tout</button><button class="menu-tab" data-filter="cocktails" role="tab">Cocktails</button><button class="menu-tab" data-filter="bites" role="tab">À partager</button><button class="menu-tab" data-filter="soft" role="tab">Sans alcool</button>
+        </div>
+        <div class="row g-4 menu-list">
+          <div class="col-md-6 col-lg-4 menu-item reveal" data-category="cocktails"><div class="menu-item-top"><span class="menu-number">01</span><span class="menu-price">12 $</span></div><h3>Sunset Bukama</h3><p>Rhum ambré, passion, citron vert, vanille & ginger beer.</p><span class="menu-tag">Signature</span></div>
+          <div class="col-md-6 col-lg-4 menu-item reveal reveal-delay-1" data-category="cocktails"><div class="menu-item-top"><span class="menu-number">02</span><span class="menu-price">14 $</span></div><h3>Kinshasa Mule</h3><p>Vodka, gingembre frais, hibiscus, citron vert & bitter.</p><span class="menu-tag">Best-seller</span></div>
+          <div class="col-md-6 col-lg-4 menu-item reveal reveal-delay-2" data-category="bites"><div class="menu-item-top"><span class="menu-number">03</span><span class="menu-price">18 $</span></div><h3>Table MB</h3><p>Brochettes, samoussas, plantain frit & sauces de la maison.</p><span class="menu-tag">À partager</span></div>
+          <div class="col-md-6 col-lg-4 menu-item reveal" data-category="soft"><div class="menu-item-top"><span class="menu-number">04</span><span class="menu-price">8 $</span></div><h3>Passion Fizz</h3><p>Passion, basilic, citron jaune, miel & eau pétillante.</p><span class="menu-tag">Fresh</span></div>
+          <div class="col-md-6 col-lg-4 menu-item reveal reveal-delay-1" data-category="bites"><div class="menu-item-top"><span class="menu-number">05</span><span class="menu-price">16 $</span></div><h3>MB Crispy Chicken</h3><p>Poulet croustillant, mayo épicée, pickles & herbes fraîches.</p><span class="menu-tag">À partager</span></div>
+          <div class="col-md-6 col-lg-4 menu-item reveal reveal-delay-2" data-category="cocktails"><div class="menu-item-top"><span class="menu-number">06</span><span class="menu-price">13 $</span></div><h3>Golden Hour</h3><p>Gin, mangue, curcuma, pamplemousse rose & tonic.</p><span class="menu-tag">Signature</span></div>
+        </div>
+        <div class="text-center mt-5 reveal"><a class="btn btn-outline-copper" href="#reservation">Voir toute la carte <i class="bi bi-arrow-up-right ms-2"></i></a></div>
+      </div>
+    </section>
+
+    <section class="agenda-section section-padding" id="agenda">
+      <div class="container"><div class="row g-5 align-items-center"><div class="col-lg-5 reveal"><p class="eyebrow copper-text">CE SOIR & BIENTÔT</p><h2 class="section-title">Les rendez-vous<br><em>MB Lounge.</em></h2><p class="body-copy">Des moments vivants, des artistes qui font vibrer la terrasse et des soirées à ne pas manquer.</p><a href="#reservation" class="btn btn-copper mt-3">Réserver pour un événement</a></div><div class="col-lg-7"><div class="event-list"><article class="event-row reveal reveal-delay-1"><div class="event-date"><strong>14</strong><span>JUIN</span></div><div><span class="event-type">SAMEDI · 20H00</span><h3>Rooftop Sessions</h3><p>DJ set · Afro house · Entrée libre</p></div><i class="bi bi-arrow-up-right"></i></article><article class="event-row reveal reveal-delay-2"><div class="event-date"><strong>21</strong><span>JUIN</span></div><div><span class="event-type">SAMEDI · 19H30</span><h3>Live by MB</h3><p>Acoustique · Cocktails · Table conseillée</p></div><i class="bi bi-arrow-up-right"></i></article><article class="event-row reveal reveal-delay-3"><div class="event-date"><strong>28</strong><span>JUIN</span></div><div><span class="event-type">SAMEDI · 20H00</span><h3>Golden Night</h3><p>Dress code doré · DJ set · Réservation</p></div><i class="bi bi-arrow-up-right"></i></article></div></div></div></div>
+    </section>
+
+    <section class="gallery-section" aria-label="Galerie MB Lounge">
+      <div class="container-fluid px-0"><div class="gallery-grid"><button class="gallery-image image-one" data-bs-toggle="modal" data-bs-target="#galleryModal" data-image="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=1200&q=85" aria-label="Voir la galerie, ambiance du bar"></button><button class="gallery-image image-two" data-bs-toggle="modal" data-bs-target="#galleryModal" data-image="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=85" aria-label="Voir la galerie, cocktail"></button><button class="gallery-image image-three" data-bs-toggle="modal" data-bs-target="#galleryModal" data-image="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=85" aria-label="Voir la galerie, soirée"></button><button class="gallery-image image-four" data-bs-toggle="modal" data-bs-target="#galleryModal" data-image="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=85" aria-label="Voir la galerie, intérieur"></button></div></div>
+    </section>
+
+    <section class="booking-section section-padding" id="reservation"><div class="container"><div class="booking-panel reveal"><div class="row g-5 align-items-center"><div class="col-lg-5"><p class="eyebrow copper-text">VOTRE TABLE VOUS ATTEND</p><h2 class="section-title">On garde<br><em>une place pour vous.</em></h2><p class="body-copy">Pour une réservation ou un événement privé, remplissez le formulaire. Notre équipe vous confirme votre table rapidement.</p><div class="booking-note"><i class="bi bi-clock"></i><span>Ouvert aujourd'hui<br><strong>jusqu'à 21h00</strong></span></div></div><div class="col-lg-6 offset-lg-1"><form id="bookingForm" class="booking-form"><div class="row g-3"><div class="col-md-6"><label for="name">Nom complet</label><input type="text" id="name" placeholder="Votre nom" required></div><div class="col-md-6"><label for="phone">Téléphone</label><input type="tel" id="phone" placeholder="0814 880 530" required></div><div class="col-md-6"><label for="date">Date</label><input type="date" id="date" required></div><div class="col-md-6"><label for="guests">Nombre de personnes</label><select id="guests"><option>2 personnes</option><option>3 personnes</option><option>4 personnes</option><option>5 personnes</option><option>6+ personnes</option></select></div><div class="col-12"><label for="message">Un souhait particulier ? <span>(optionnel)</span></label><textarea id="message" rows="3" placeholder="Anniversaire, événement privé..."></textarea></div><div class="col-12"><button class="btn btn-copper w-100" type="submit">Demander une réservation <i class="bi bi-arrow-up-right ms-2"></i></button></div></div><div id="formMessage" class="form-message" role="status"></div></form></div></div></div></div></section>
+
+    <section class="contact-section section-padding" id="contact"><div class="container"><div class="row g-4"><div class="col-lg-6 reveal"><p class="eyebrow copper-text">RETROUVONS-NOUS</p><h2 class="section-title">Votre prochaine<br><em>bonne adresse.</em></h2></div><div class="col-lg-6 reveal reveal-delay-1"><div class="contact-details"><div class="contact-line"><i class="bi bi-geo-alt"></i><div><span>Adresse</span><p>172 Rue De Bukama<br>Kinshasa, République démocratique du Congo</p></div></div><div class="contact-line"><i class="bi bi-telephone"></i><div><span>Téléphone</span><p><a href="tel:0814880530">0814 880 530</a></p></div></div><div class="contact-line"><i class="bi bi-clock"></i><div><span>Horaires</span><p>Lundi — Dimanche<br>16h00 — 21h00</p></div></div></div><a class="btn btn-outline-copper mt-4" href="https://www.google.com/maps/search/?api=1&query=172+Rue+De+Bukama+Kinshasa" target="_blank" rel="noreferrer">Ouvrir dans Maps <i class="bi bi-arrow-up-right ms-2"></i></a></div></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="row g-4 align-items-center"><div class="col-md-6"><a class="navbar-brand" href="#accueil">MB <span>Lounge</span><i class="bi bi-cup-straw"></i></a><p class="footer-copy">Un peu de lumière, beaucoup de goût.</p></div><div class="col-md-6 text-md-end"><div class="socials"><a href="https://www.tiktok.com/@mblounge" target="_blank" rel="noreferrer" aria-label="TikTok"><i class="bi bi-tiktok"></i></a><a href="https://www.facebook.com/p/MB-Lounge-61567775398831/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="tel:0814880530" aria-label="Téléphone"><i class="bi bi-telephone"></i></a></div><p class="copyright">© <span id="year"></span>  | M-X  | Tamann-B</p></div></div></div></footer>
+
+  <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fermer"></button><img id="galleryModalImage" src="" alt="Photo de MB Lounge"></div></div></div>
+  <button class="back-to-top" id="backToTop" aria-label="Retour en haut"><i class="bi bi-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
